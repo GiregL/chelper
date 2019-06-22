@@ -1,0 +1,3 @@
+/home/lezoraig/CLionProjects/chelper/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/lezoraig/CLionProjects/chelper/cmake-build-debug/CMakeFiles/chelper.dir
+/home/lezoraig/CLionProjects/chelper/cmake-build-debug/CMakeFiles/edit_cache.dir
