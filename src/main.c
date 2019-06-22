@@ -52,17 +52,17 @@ int main(int argc, string* argv) {
                       "all: $(PROJECTNAME)\n"
                       "\n"
                       "$(PROJECTNAME): $(OBJ)\n"
-                      "    @$(CXX) -o $@ $^ $(LDFLAGS)\n"
+                      "\t@$(CXX) -o $@ $^ $(LDFLAGS)\n"
                       "\n"
                       "$(OBJDIR)/%.o: %.$(EXT)\n"
-                      "    @$(CXX) -o $@ -c $< $(CXXFLAGS)\n"
+                      "\t@$(CXX) -o $@ -c $< $(CXXFLAGS)\n"
                       "\n"
                       "clean:\n"
-                      "    @rm -rf $(OBJDIR)/*.o\n"
-                      "    @rm -f $(PROJECTNAME)\n"
+                      "\t@rm -rf $(OBJDIR)/*.o\n"
+                      "\t@rm -f $(PROJECTNAME)\n"
                       "\n"
                       "install: $(PROJECTNAME)\n"
-                      "    @cp $(PROJECTNAME) /usr/bin/");
+                      "\t@cp $(PROJECTNAME) /usr/bin/");
     fclose(makefile);
 
     return 0;

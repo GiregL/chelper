@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/lezoraig/CLionProjects/chelper/src/main.c" "/home/lezoraig/CLionProjects/chelper/cmake-build-debug/CMakeFiles/chelper.dir/src/main.c.o"
+  "/home/lezoraig/git/chelper/src/main.c" "/home/lezoraig/git/chelper/cmake-build-debug/CMakeFiles/chelper.dir/src/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

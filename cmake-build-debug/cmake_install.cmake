@@ -1,4 +1,4 @@
-# Install script for directory: /home/lezoraig/CLionProjects/chelper
+# Install script for directory: /home/lezoraig/git/chelper
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/lezoraig/CLionProjects/chelper/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/lezoraig/git/chelper/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
